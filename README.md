@@ -33,25 +33,25 @@ It provides a clean and user-friendly dashboard for scanning **authorized IP add
 
 ![VulnScope Dashboard](screenshots/dashboard.png).
 
-###  Dashboard View
+###  scan View
 
-![VulnScope Dashboard 2](screenshots/dashboard2.png)
+![VulnScope scan](screenshots/scan.png)
 
-### 🔍 Scan Interface
+###  portstatus Interface
 
-![VulnScope Scan](screenshots/scan.png)
+![VulnScope Scan](screenshots/portstatus.png)
 
-### 📋 Scan Results
+###  Scanhistory Results
 
-![VulnScope Scan Results](screenshots/scan2.png)
+![VulnScope Scan Results](screenshots/scanhistory.png)
 
-### 📈 Scan Details
+###  Scanreport Details
 
-![VulnScope Scan Details](screenshots/scan3.png)
+![VulnScope Scan Details](screenshots/scanreport.png)
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 ### Frontend
 - React.js
@@ -75,7 +75,7 @@ It provides a clean and user-friendly dashboard for scanning **authorized IP add
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```text
 VulnScope/
