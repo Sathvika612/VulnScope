@@ -2,7 +2,9 @@
 
 VulnScope is a web-based vulnerability assessment dashboard designed to simplify network scanning and security assessment using **Nmap**.
 
-It provides a clean dashboard for scanning authorized IP addresses or hostnames, viewing discovered hosts, open ports, filtered ports, detected services, scan history, and generating scan reports.
+It provides a clean and user-friendly dashboard for scanning **authorized IP addresses, hostnames, and CIDR networks**, viewing discovered hosts, open ports, filtered ports, detected services, scan history, and generating scan reports.
+
+>  **Authorization Notice:** VulnScope should only be used to scan systems and networks that you own or have explicit permission to assess.
 
 ---
 
@@ -25,7 +27,31 @@ It provides a clean dashboard for scanning authorized IP addresses or hostnames,
 
 ---
 
-##  Technologies Used
+## 📸 Screenshots
+
+###  Dashboard
+
+![VulnScope Dashboard](screenshots/dashboard.png).
+
+###  Dashboard View
+
+![VulnScope Dashboard 2](screenshots/dashboard2.png)
+
+### 🔍 Scan Interface
+
+![VulnScope Scan](screenshots/scan.png)
+
+### 📋 Scan Results
+
+![VulnScope Scan Results](screenshots/scan2.png)
+
+### 📈 Scan Details
+
+![VulnScope Scan Details](screenshots/scan3.png)
+
+---
+
+## 🛠️ Technologies Used
 
 ### Frontend
 - React.js
@@ -45,11 +71,11 @@ It provides a clean dashboard for scanning authorized IP addresses or hostnames,
 ### Other
 - REST API
 - Flask-CORS
-- XML parsing
+- XML Parsing
 
 ---
 
-##  Project Structure
+## 📁 Project Structure
 
 ```text
 VulnScope/
@@ -69,5 +95,12 @@ VulnScope/
 │   │   └── index.css
 │   ├── package.json
 │   └── vite.config.js
+│
+├── screenshots/
+│   ├── dashboard.png
+│   ├── dashboard2.png
+│   ├── scan.png
+│   ├── scan2.png
+│   └── scan3.png
 │
 └── README.md
