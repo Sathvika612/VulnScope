@@ -1,0 +1,21 @@
+# Frontend
+node_modules/
+dist/
+build/
+
+# Backend
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+
+# Logs
+*.log
